@@ -1,0 +1,26 @@
+{
+  "name": "cientifico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --open 'Google Chrome' --mode development --host 192.168.0.14"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Alejandra Hincapie",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^6.2.1"
+  },
+  "description": ""
+}
